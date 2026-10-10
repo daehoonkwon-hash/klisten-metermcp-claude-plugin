@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "metermcp": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/metermcp",
+      "headers": {
+        "Authorization": "Bearer ${user_config.api_key}"
+      }
+    }
+  }
+}
